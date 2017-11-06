@@ -19,15 +19,15 @@
     });
 
     var mymap = L.map('mapid', {
-        center: [48.1329646, -1.6371024],
+        center: [-61.1930,13.2516],
         zoom: 10,
         layers: [osmLayer]
     });
 
     osmLayer.addTo(mymap);
 
-    L.marker([48.1329646, -1.6371024]).addTo(mymap)
-        .bindPopup('Micropole Rennes')
+    L.marker([-61.1930,13.2516]).addTo(mymap)
+        .bindPopup('Kingstown, St Vincent')
         .openPopup();
     </script>
 </body>
