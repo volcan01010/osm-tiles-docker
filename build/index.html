@@ -19,14 +19,14 @@
     });
 
     var mymap = L.map('mapid', {
-        center: [13.2516, -61.1930],
-        zoom: 10,
+        center: [13.25, -61.19],
+        zoom: 11,
         layers: [osmLayer]
     });
 
     osmLayer.addTo(mymap);
 
-    L.marker([13.2516, -61.1930]).addTo(mymap)
+    L.marker([13.157778, -61.225]).addTo(mymap)
         .bindPopup('Kingstown, St Vincent')
         .openPopup();
     </script>
